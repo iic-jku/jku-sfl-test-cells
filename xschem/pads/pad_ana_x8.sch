@@ -36,37 +36,37 @@ lab=VSS}
 N 60 -160 230 -160 {
 lab=VSS}
 N 2150 -440 2470 -440 {
-lab=xxx}
+lab=VDD}
 N 2470 -440 2470 -400 {
-lab=xxx}
+lab=VDD}
 N 2150 -440 2150 -400 {
-lab=xxx}
+lab=VDD}
 N 1830 -440 2150 -440 {
-lab=xxx}
+lab=VDD}
 N 1830 -440 1830 -400 {
-lab=xxx}
+lab=VDD}
 N 1510 -440 1830 -440 {
-lab=xxx}
+lab=VDD}
 N 1510 -440 1510 -400 {
-lab=xxx}
+lab=VDD}
 N 1190 -440 1510 -440 {
-lab=xxx}
+lab=VDD}
 N 1190 -440 1190 -400 {
-lab=xxx}
+lab=VDD}
 N 870 -440 1190 -440 {
-lab=xxx}
+lab=VDD}
 N 870 -440 870 -400 {
-lab=xxx}
+lab=VDD}
 N 550 -440 870 -440 {
-lab=xxx}
+lab=VDD}
 N 230 -440 230 -400 {
-lab=xxx}
+lab=VDD}
 N 60 -440 230 -440 {
-lab=xxx}
+lab=VDD}
 N 550 -440 550 -400 {
-lab=xxx}
+lab=VDD}
 N 230 -440 550 -440 {
-lab=xxx}
+lab=VDD}
 N 100 -300 100 -100 {
 lab=ANA1}
 N 100 -300 120 -300 {
@@ -133,14 +133,14 @@ N 2580 -300 2600 -300 {
 lab=PAD8}
 N 2600 -500 2600 -300 {
 lab=PAD8}
-C {pads/pad_ana.sym} 100 -190 0 0 {name=x1}
-C {pads/pad_ana.sym} 420 -190 0 0 {name=x2}
-C {pads/pad_ana.sym} 740 -190 0 0 {name=x3}
-C {pads/pad_ana.sym} 1060 -190 0 0 {name=x4}
-C {pads/pad_ana.sym} 1380 -190 0 0 {name=x5}
-C {pads/pad_ana.sym} 1700 -190 0 0 {name=x6}
-C {pads/pad_ana.sym} 2020 -190 0 0 {name=x7}
-C {pads/pad_ana.sym} 2340 -190 0 0 {name=x8}
+C {pads/pad_ana.sym} 120 -300 0 0 {name=x1}
+C {pads/pad_ana.sym} 440 -300 0 0 {name=x2}
+C {pads/pad_ana.sym} 760 -300 0 0 {name=x3}
+C {pads/pad_ana.sym} 1080 -300 0 0 {name=x4}
+C {pads/pad_ana.sym} 1400 -300 0 0 {name=x5}
+C {pads/pad_ana.sym} 1720 -300 0 0 {name=x6}
+C {pads/pad_ana.sym} 2040 -300 0 0 {name=x7}
+C {pads/pad_ana.sym} 2360 -300 0 0 {name=x8}
 C {devices/iopin.sym} 60 -440 0 1 {name=p1 lab=VDD}
 C {devices/iopin.sym} 60 -160 0 1 {name=p2 lab=VSS}
 C {devices/iopin.sym} 100 -100 3 1 {name=p3 lab=ANA1}
