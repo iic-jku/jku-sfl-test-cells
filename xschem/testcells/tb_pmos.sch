@@ -26,21 +26,19 @@ lab=VSS}
 N 600 -320 850 -320 {
 lab=vbias}
 N 450 -520 450 -480 {
-lab=VDD}
+lab=#net1}
 N 450 -520 620 -520 {
-lab=VDD}
+lab=#net1}
 N 600 -440 620 -440 {
-lab=VDD}
+lab=#net1}
 N 620 -520 620 -440 {
-lab=VDD}
+lab=#net1}
 N 620 -340 620 -220 {
 lab=VSS}
-N 250 -520 450 -520 {
-lab=VDD}
 N 620 -520 930 -520 {
-lab=VDD}
+lab=#net1}
 N 930 -520 930 -420 {
-lab=VDD}
+lab=#net1}
 N 930 -220 930 -180 {
 lab=IOUT}
 N 260 -220 450 -220 {
@@ -99,5 +97,5 @@ C {devices/iopin.sym} 1050 -120 0 0 {name=p14 lab=ID_N}
 C {devices/iopin.sym} 1050 -100 0 0 {name=p15 lab=ID_P}
 C {devices/ipin.sym} 1050 -80 0 1 {name=p16 lab=VG_P}
 C {devices/ipin.sym} 1050 -60 0 1 {name=p17 lab=VG_N}
-C {devices/iopin.sym} 250 -520 0 1 {name=p10 lab=VDD}
 C {tailsrcs/tail_src_p.sym} 850 -320 0 0 {name=x2}
+C {devices/lab_pin.sym} 450 -520 0 0 {name=p10 sig_type=std_logic lab=vdd}
