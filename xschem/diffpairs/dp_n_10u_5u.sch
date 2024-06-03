@@ -5,49 +5,49 @@ K {}
 V {}
 S {}
 E {}
-N 330 -210 330 -180 {
+N 530 -290 530 -260 {
 lab=ITAIL}
-N 330 -340 330 -300 {
+N 530 -420 530 -380 {
 lab=ID_N}
-N 570 -340 570 -300 {
+N 770 -420 770 -380 {
 lab=ID_P}
-N 430 -270 570 -270 {
+N 630 -350 770 -350 {
 lab=VSS}
-N 570 -240 570 -210 {
+N 770 -320 770 -290 {
 lab=ITAIL}
-N 470 -210 570 -210 {
+N 670 -290 770 -290 {
 lab=ITAIL}
-N 330 -240 330 -210 {
+N 530 -320 530 -290 {
 lab=ITAIL}
-N 430 -100 430 -80 {
+N 630 -180 630 -160 {
 lab=VSS}
-N 330 -270 430 -270 {
+N 530 -350 630 -350 {
 lab=VSS}
-N 470 -210 470 -80 {
+N 670 -290 670 -160 {
 lab=ITAIL}
-N 330 -210 470 -210 {
+N 530 -290 670 -290 {
 lab=ITAIL}
-N 370 -150 430 -150 {
+N 570 -230 630 -230 {
 lab=VSS}
-N 430 -270 430 -150 {
+N 630 -350 630 -230 {
 lab=VSS}
-N 330 -120 330 -100 {
+N 530 -200 530 -180 {
 lab=VSS}
-N 330 -100 430 -100 {
+N 530 -180 630 -180 {
 lab=VSS}
-N 430 -150 430 -100 {
+N 630 -230 630 -180 {
 lab=VSS}
-N 320 -150 330 -150 {
+N 520 -230 530 -230 {
 lab=VSS}
-N 320 -150 320 -100 {
+N 520 -230 520 -180 {
 lab=VSS}
-N 320 -100 330 -100 {
+N 520 -180 530 -180 {
 lab=VSS}
-N 610 -270 770 -270 {
+N 810 -350 970 -350 {
 lab=VG_N}
-N 130 -270 290 -270 {
+N 330 -350 490 -350 {
 lab=VG_P}
-C {sg13g2_pr/sg13_lv_nmos.sym} 310 -270 2 1 {name=M1
+C {sg13g2_pr/sg13_lv_nmos.sym} 510 -350 2 1 {name=M1
 L=5.0u
 W=10.0u
 ng=4
@@ -55,7 +55,7 @@ m=1
 model=sg13_lv_nmos
 spiceprefix=X
 }
-C {sg13g2_pr/sg13_lv_nmos.sym} 590 -270 2 0 {name=M2
+C {sg13g2_pr/sg13_lv_nmos.sym} 790 -350 2 0 {name=M2
 L=5.0u
 W=10.0u
 ng=4
@@ -63,7 +63,7 @@ m=1
 model=sg13_lv_nmos
 spiceprefix=X
 }
-C {sg13g2_pr/sg13_lv_nmos.sym} 350 -150 2 0 {name=M3
+C {sg13g2_pr/sg13_lv_nmos.sym} 550 -230 2 0 {name=M3
 L=5.0u
 W=5.0u
 ng=2
@@ -71,9 +71,10 @@ m=1
 model=sg13_lv_nmos
 spiceprefix=X
 }
-C {devices/ipin.sym} 130 -270 0 0 {name=p1 lab=VG_P}
-C {devices/ipin.sym} 770 -270 0 1 {name=p2 lab=VG_N}
-C {devices/iopin.sym} 430 -80 1 0 {name=p3 lab=VSS}
-C {devices/iopin.sym} 470 -80 1 0 {name=p4 lab=ITAIL}
-C {devices/iopin.sym} 330 -340 3 0 {name=p5 lab=ID_N}
-C {devices/iopin.sym} 570 -340 3 0 {name=p6 lab=ID_P}
+C {devices/ipin.sym} 330 -350 0 0 {name=p1 lab=VG_P}
+C {devices/ipin.sym} 970 -350 0 1 {name=p2 lab=VG_N}
+C {devices/iopin.sym} 630 -160 1 0 {name=p3 lab=VSS}
+C {devices/iopin.sym} 670 -160 1 0 {name=p4 lab=ITAIL}
+C {devices/iopin.sym} 530 -420 3 0 {name=p5 lab=ID_N}
+C {devices/iopin.sym} 770 -420 3 0 {name=p6 lab=ID_P}
+C {devices/title.sym} 160 -40 0 0 {name=l1 author="Michael Koefinger"}

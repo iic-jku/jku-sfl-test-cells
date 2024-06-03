@@ -5,65 +5,65 @@ K {}
 V {}
 S {}
 E {}
-N 330 -210 330 -180 {
+N 520 -290 520 -260 {
 lab=ITAIL}
-N 330 -340 330 -300 {
+N 520 -420 520 -380 {
 lab=ID_N}
-N 570 -340 570 -300 {
+N 760 -420 760 -380 {
 lab=ID_P}
-N 430 -270 570 -270 {
+N 620 -350 760 -350 {
 lab=VSS}
-N 570 -240 570 -210 {
+N 760 -320 760 -290 {
 lab=ITAIL}
-N 470 -210 570 -210 {
+N 660 -290 760 -290 {
 lab=ITAIL}
-N 330 -240 330 -210 {
+N 520 -320 520 -290 {
 lab=ITAIL}
-N 430 -100 430 -80 {
+N 620 -180 620 -160 {
 lab=VSS}
-N 330 -270 430 -270 {
+N 520 -350 620 -350 {
 lab=VSS}
-N 470 -210 470 -80 {
+N 660 -290 660 -160 {
 lab=ITAIL}
-N 330 -210 470 -210 {
+N 520 -290 660 -290 {
 lab=ITAIL}
-N 370 -150 430 -150 {
+N 560 -230 620 -230 {
 lab=VSS}
-N 430 -270 430 -150 {
+N 620 -350 620 -230 {
 lab=VSS}
-N 330 -120 330 -100 {
+N 520 -200 520 -180 {
 lab=VSS}
-N 330 -100 430 -100 {
+N 520 -180 620 -180 {
 lab=VSS}
-N 430 -150 430 -100 {
+N 620 -230 620 -180 {
 lab=VSS}
-N 320 -150 330 -150 {
+N 510 -230 520 -230 {
 lab=VSS}
-N 320 -150 320 -100 {
+N 510 -230 510 -180 {
 lab=VSS}
-N 320 -100 330 -100 {
+N 510 -180 520 -180 {
 lab=VSS}
-N 720 -270 770 -270 {
+N 910 -350 960 -350 {
 lab=VG_N}
-N 180 -270 290 -270 {
+N 370 -350 480 -350 {
 lab=VG_P}
-N 180 -270 180 -220 {
+N 370 -350 370 -300 {
 lab=VG_P}
-N 130 -270 180 -270 {
+N 320 -350 370 -350 {
 lab=VG_P}
-N 720 -270 720 -220 {
+N 910 -350 910 -300 {
 lab=VG_N}
-N 610 -270 720 -270 {
+N 800 -350 910 -350 {
 lab=VG_N}
-N 180 -160 180 -100 {
+N 370 -240 370 -180 {
 lab=VSS}
-N 180 -100 320 -100 {
+N 370 -180 510 -180 {
 lab=VSS}
-N 430 -100 720 -100 {
+N 620 -180 910 -180 {
 lab=VSS}
-N 720 -160 720 -100 {
+N 910 -240 910 -180 {
 lab=VSS}
-C {sg13g2_pr/sg13_lv_nmos.sym} 310 -270 2 1 {name=M1
+C {sg13g2_pr/sg13_lv_nmos.sym} 500 -350 2 1 {name=M1
 L=0.13u
 W=96.0u
 ng=48
@@ -71,7 +71,7 @@ m=1
 model=sg13_lv_nmos
 spiceprefix=X
 }
-C {sg13g2_pr/sg13_lv_nmos.sym} 590 -270 2 0 {name=M2
+C {sg13g2_pr/sg13_lv_nmos.sym} 780 -350 2 0 {name=M2
 L=0.13u
 W=96.0u
 ng=48
@@ -79,7 +79,7 @@ m=1
 model=sg13_lv_nmos
 spiceprefix=X
 }
-C {sg13g2_pr/sg13_lv_nmos.sym} 350 -150 2 0 {name=M3
+C {sg13g2_pr/sg13_lv_nmos.sym} 540 -230 2 0 {name=M3
 L=0.13u
 W=4.0u
 ng=2
@@ -87,19 +87,20 @@ m=1
 model=sg13_lv_nmos
 spiceprefix=X
 }
-C {devices/ipin.sym} 130 -270 0 0 {name=p1 lab=VG_P}
-C {devices/ipin.sym} 770 -270 0 1 {name=p2 lab=VG_N}
-C {devices/iopin.sym} 430 -80 1 0 {name=p3 lab=VSS}
-C {devices/iopin.sym} 470 -80 1 0 {name=p4 lab=ITAIL}
-C {devices/iopin.sym} 330 -340 3 0 {name=p5 lab=ID_N}
-C {devices/iopin.sym} 570 -340 3 0 {name=p6 lab=ID_P}
-C {sg13g2_pr/dantenna.sym} 180 -190 0 0 {name=XD1
+C {devices/ipin.sym} 320 -350 0 0 {name=p1 lab=VG_P}
+C {devices/ipin.sym} 960 -350 0 1 {name=p2 lab=VG_N}
+C {devices/iopin.sym} 620 -160 1 0 {name=p3 lab=VSS}
+C {devices/iopin.sym} 660 -160 1 0 {name=p4 lab=ITAIL}
+C {devices/iopin.sym} 520 -420 3 0 {name=p5 lab=ID_N}
+C {devices/iopin.sym} 760 -420 3 0 {name=p6 lab=ID_P}
+C {sg13g2_pr/dantenna.sym} 370 -270 0 0 {name=XD1
 model=dantenna
 l=30u
 w=10u
 }
-C {sg13g2_pr/dantenna.sym} 720 -190 0 0 {name=XD2
+C {sg13g2_pr/dantenna.sym} 910 -270 0 0 {name=XD2
 model=dantenna
 l=30u
 w=10u
 }
+C {devices/title.sym} 160 -40 0 0 {name=l1 author="Michael Koefinger"}
