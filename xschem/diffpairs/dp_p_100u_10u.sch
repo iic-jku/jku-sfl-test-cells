@@ -106,3 +106,4 @@ m=2
 model=sg13_lv_pmos
 spiceprefix=X
 }
+C {devices/title.sym} 160 -50 0 0 {name=l1 author="Michael Koefinger"}
