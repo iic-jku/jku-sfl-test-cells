@@ -5,31 +5,32 @@ K {}
 V {}
 S {}
 E {}
-T {Use antenna diodes as placehoders for ESD diodes} -140 -320 0 0 0.4 0.4 {}
-N 180 -140 180 -120 {
+T {Use antenna diodes as placehoders for ESD diodes} 380 -440 0 0 0.4 0.4 {}
+N 700 -260 700 -240 {
 lab=PAD}
-N 120 -40 180 -40 {
+N 640 -160 700 -160 {
 lab=VSS}
-N 180 -60 180 -40 {
+N 700 -180 700 -160 {
 lab=VSS}
-N 120 -140 180 -140 {
+N 640 -260 700 -260 {
 lab=PAD}
-N 180 -160 180 -140 {
+N 700 -280 700 -260 {
 lab=PAD}
-N 120 -240 180 -240 {
+N 640 -360 700 -360 {
 lab=VDD}
-N 180 -240 180 -220 {
+N 700 -360 700 -340 {
 lab=VDD}
-C {sg13g2_pr/dantenna.sym} 180 -190 0 0 {name=XD1
+C {sg13g2_pr/dantenna.sym} 700 -310 0 0 {name=XD1
 model=dantenna
 l=780n
 w=780n
 }
-C {sg13g2_pr/dantenna.sym} 180 -90 0 0 {name=XD2
+C {sg13g2_pr/dantenna.sym} 700 -210 0 0 {name=XD2
 model=dantenna
 l=780n
 w=780n
 }
-C {devices/iopin.sym} 120 -240 0 1 {name=p3 lab=VDD}
-C {devices/iopin.sym} 120 -40 0 1 {name=p1 lab=VSS}
-C {devices/iopin.sym} 120 -140 0 1 {name=p2 lab=PAD}
+C {devices/iopin.sym} 640 -360 0 1 {name=p3 lab=VDD}
+C {devices/iopin.sym} 640 -160 0 1 {name=p1 lab=VSS}
+C {devices/iopin.sym} 640 -260 0 1 {name=p2 lab=PAD}
+C {devices/title.sym} 160 -40 0 0 {name=l1 author="Michael Koefinger"}

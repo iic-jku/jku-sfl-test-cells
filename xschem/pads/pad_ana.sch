@@ -7,65 +7,66 @@ S {}
 E {}
 T {LVS Resistors
 TopMetal1 and TopMetal2
-} 470 -530 0 0 0.4 0.4 {}
-N 130 -560 190 -560 {
+} 710 -650 0 0 0.4 0.4 {}
+N 370 -680 430 -680 {
 lab=VDD}
-N 190 -560 190 -460 {
+N 430 -680 430 -580 {
 lab=VDD}
-N 190 -300 190 -200 {
+N 430 -420 430 -320 {
 lab=PAD}
-N 130 -40 190 -40 {
+N 370 -160 430 -160 {
 lab=VSS}
-N 130 -300 190 -300 {
+N 370 -420 430 -420 {
 lab=PAD}
-N 460 -300 500 -300 {
+N 700 -420 740 -420 {
 lab=PAD}
-N 460 -400 500 -400 {
+N 700 -520 740 -520 {
 lab=PAD}
-N 460 -400 460 -300 {
+N 700 -520 700 -420 {
 lab=PAD}
-N 290 -300 460 -300 {
+N 530 -420 700 -420 {
 lab=PAD}
-N 560 -300 600 -300 {
+N 800 -420 840 -420 {
 lab=ANA}
-N 560 -400 600 -400 {
+N 800 -520 840 -520 {
 lab=ANA}
-N 600 -400 600 -300 {
+N 840 -520 840 -420 {
 lab=ANA}
-N 600 -300 680 -300 {
+N 840 -420 920 -420 {
 lab=ANA}
-N 190 -140 190 -40 {
+N 430 -260 430 -160 {
 lab=VSS}
-N 290 -170 310 -170 {
+N 530 -290 550 -290 {
 lab=PAD}
-N 290 -300 290 -170 {
+N 530 -420 530 -290 {
 lab=PAD}
-N 190 -300 290 -300 {
+N 430 -420 530 -420 {
 lab=PAD}
-N 190 -40 370 -40 {
+N 430 -160 610 -160 {
 lab=VSS}
-N 370 -90 370 -40 {
+N 610 -210 610 -160 {
 lab=VSS}
-N 190 -400 190 -300 {
+N 430 -520 430 -420 {
 lab=PAD}
-N 370 -560 370 -250 {
+N 610 -680 610 -370 {
 lab=VDD}
-N 190 -560 370 -560 {
+N 430 -680 610 -680 {
 lab=VDD}
-C {devices/iopin.sym} 130 -40 0 1 {name=p1 lab=VSS}
-C {devices/iopin.sym} 130 -300 0 1 {name=p2 lab=PAD}
-C {devices/iopin.sym} 130 -560 0 1 {name=p3 lab=VDD}
-C {sg13g2_pr/cap_cpara.sym} 190 -430 0 0 {name=C1 model=cparasitic C=20f  spiceprefix=X}
-C {sg13g2_pr/cap_cpara.sym} 190 -170 0 0 {name=C2 model=cparasitic C=20f  spiceprefix=X}
-C {devices/res.sym} 530 -300 3 0 {name=R1
+C {devices/iopin.sym} 370 -160 0 1 {name=p1 lab=VSS}
+C {devices/iopin.sym} 370 -420 0 1 {name=p2 lab=PAD}
+C {devices/iopin.sym} 370 -680 0 1 {name=p3 lab=VDD}
+C {sg13g2_pr/cap_cpara.sym} 430 -550 0 0 {name=C1 model=cparasitic C=20f  spiceprefix=X}
+C {sg13g2_pr/cap_cpara.sym} 430 -290 0 0 {name=C2 model=cparasitic C=20f  spiceprefix=X}
+C {devices/res.sym} 770 -420 3 0 {name=R1
 value=1e-6
 footprint=1206
 device=resistor
 m=1}
-C {devices/res.sym} 530 -400 3 0 {name=R2
+C {devices/res.sym} 770 -520 3 0 {name=R2
 value=1e-6
 footprint=1206
 device=resistor
 m=1}
-C {devices/iopin.sym} 680 -300 0 0 {name=p4 lab=ANA}
-C {pads/pad_diodes.sym} 250 -310 0 0 {name=x1}
+C {devices/iopin.sym} 920 -420 0 0 {name=p4 lab=ANA}
+C {pads/pad_diodes.sym} 490 -430 0 0 {name=xesd1}
+C {devices/title.sym} 160 -40 0 0 {name=l1 author="Michael Koefinger"}
